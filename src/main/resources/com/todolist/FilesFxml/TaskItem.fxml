@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="45.0" prefWidth="500.0" styleClass="task-card" stylesheets="@../Style/TaskItemStyle.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.todolist.Controllers.TaskItemController">
+
+    <children>
+        <Label fx:id="titleLabel" layoutX="64.0" layoutY="26.0" prefHeight="30.0" prefWidth="300.0" styleClass="task-title" />
+        <ImageView fitHeight="35.0" fitWidth="40.0" layoutX="408.0" layoutY="24.0" onMouseClicked="#DeleteTaskHandle" pickOnBounds="true" preserveRatio="true" styleClass="icon-button">
+            <image>
+                <Image url="@../Image/free-icon-recycle-bin-container-12960.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="EditTaskButton" fitHeight="35.0" fitWidth="40.0" layoutX="454.0" layoutY="24.0" onMouseClicked="#EditTaskHandle" pickOnBounds="true" preserveRatio="true" styleClass="icon-button">
+            <image>
+                <Image url="@../Image/free-icon-pencil-1828911.png" />
+            </image>
+        </ImageView>
+        <CheckBox fx:id="CheckBox" layoutX="17.0" layoutY="23.0" mnemonicParsing="false">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </CheckBox>
+    </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="To-Do-List:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/To_Do_List_jar</output-path>
+    <root id="archive" name="To-Do-List.jar">
+      <element id="module-output" name="To-Do-List" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/23.0.2/javafx-fxml-23.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/23.0.2/javafx-controls-23.0.2-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/23.0.2/javafx-graphics-23.0.2-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/23.0.2/javafx-fxml-23.0.2-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/23.0.2/javafx-base-23.0.2-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/23.0.2/javafx-controls-23.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/23.0.2/javafx-base-23.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/23.0.2/javafx-graphics-23.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/mysql-connector-j-9.2.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

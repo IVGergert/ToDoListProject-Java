@@ -1,0 +1,61 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #2c3e50cc, #000000cc); /* тёмный фон с лёгким градиентом */
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* Заголовок */
+.Title {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-padding: 0 0 10px 0;
+}
+
+.login-pane {
+    -fx-background-color: rgba(255, 255, 255, 0.1); /* полупрозрачный фон */
+    -fx-background-radius: 15;
+    -fx-padding: 40;
+    -fx-spacing: 15;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 20, 0, 0, 5);
+}
+
+.label-title {
+    -fx-font-size: 35px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.username-field, .password-field {
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-border-width: 0 0 1 0;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #bbbbbb;
+    -fx-font-size: 16px;
+    -fx-padding: 5 0 5 30;
+}
+
+.username-field:focused, .password-field:focused {
+    -fx-border-color: #C0C0C0;
+}
+
+.login-button, .register-button{
+    -fx-background-color: rgba(255,255,255,0.3);
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-background-radius: 10;
+    -fx-padding: 10 20 10 20;
+    -fx-cursor: hand;
+}
+
+.login-button:hover, .register-button:hover {
+    -fx-background-color: rgba(255,255,255,0.4);
+}
+
+.forgot-button {
+    -fx-text-fill: #AAAAAA;
+    -fx-font-size: 15px;
+    -fx-underline: true;
+    -fx-cursor: hand;
+}

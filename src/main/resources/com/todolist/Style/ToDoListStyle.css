@@ -1,0 +1,43 @@
+/* Основные стили приложения */
+.app-root {
+    -fx-padding: 20px;
+    -fx-background-color: #f5f7fa;
+}
+
+.app-title {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-fill: #2c3e50;
+    -fx-padding: 0 0 10px 0;
+}
+
+.add-button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 4px;
+    -fx-padding: 8px 16px;
+    -fx-cursor: hand;
+    -fx-pref-width: 167px;
+}
+
+.add-button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.filter-combo {
+    -fx-font-size: 14px;
+    -fx-background-radius: 4px;
+    -fx-border-color: #dfe6e9;
+}
+
+.task-input-field {
+    -fx-background-color: #f8f9fa;
+    -fx-background-radius: 4px;
+    -fx-border-color: #dfe6e9;
+    -fx-border-radius: 4px;
+    -fx-padding: 12px;
+    -fx-font-size: 16px;
+    -fx-min-width: 10px;
+}
